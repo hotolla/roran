@@ -1,0 +1,16 @@
+.info {
+  border-bottom: 1px solid rgb(223, 223, 223);
+  padding: 22px 0;
+}
+
+.info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials__link {
+  color: #c0c0c0;
+  font-size: 17px;
+  margin: 0 6px;
+}

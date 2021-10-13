@@ -1,0 +1,16 @@
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.menu__link {
+  color: $grey;
+  &:hover {
+    color: #000;
+  }
+}
+.logo {
+  font-size: 30px;
+  color: $roran;
+}

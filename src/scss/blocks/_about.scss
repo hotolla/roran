@@ -1,0 +1,35 @@
+.about {
+  text-align: center;
+  padding: 75px 0;
+}
+.about__title {
+  color: $roran;
+  font-size: 45px;
+}
+
+.about__subtitle {
+  font-size: 30px;
+  color: $grey;
+}
+
+.about__text {
+  font-size: 17px;
+}
+
+.about__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.about__item {
+  width: 215px;
+}
+
+.about__item-title {
+  margin: 30px 0 20px;
+  span {
+    color: $maingreen;
+  }
+}

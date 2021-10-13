@@ -1,0 +1,57 @@
+.portfolio__title {
+  margin-top: 90px;
+  color: $main-color;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+.portfolio__subtitle {
+  color: $grey;
+  font-size: 21px;
+  text-align: center;
+}
+.portfolio__nav-item {
+  font-size: 16px;
+  color: $grey;
+  &:hover {
+    color: #000;
+  }
+}
+.portfolio__nav {
+  padding-top: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  a {
+    color: $grey;
+  }
+}
+.nav-tab {
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 50px 30px 20px 50px;
+  text-decoration: none;
+}
+.nav-tab.active {
+  cursor: default;
+}
+.tab-content {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 300px;
+    height: 260px;
+  }
+}
+.tab-pane {
+  display: none;
+  padding: 30px;
+}
+.tab-pane.active {
+  display: flex;
+}

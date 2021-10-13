@@ -1,0 +1,71 @@
+.team {
+  background: #f0f0f0;
+}
+
+.team__title {
+  margin-top: 90px;
+  color: $main-color;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team__subtitle {
+  color: $grey;
+  font-size: 21px;
+  text-align: center;
+}
+
+.team__wrapper {
+  position: relative;
+}
+
+.team__slider {
+  margin-top: 50px;
+  padding-bottom: 45px;
+}
+
+.team__slide-img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.team__slide-footer {
+  background-color: #fff;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.swiper-button-prev {
+  left: -55px;
+  top: 43%;
+  &::after {
+    content: "";
+    width: 17px;
+    height: 25px;
+    background: url(../../img/slider/arrow-left.png);
+  }
+}
+
+.swiper-button-next {
+  right: -55px;
+  top: 43%;
+  &::after {
+    content: "";
+    width: 17px;
+    height: 25px;
+    background: url(../../img/slider/arrow-right.png);
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #a09f9f;
+  &-active {
+    background: $maingreen;
+  }
+}

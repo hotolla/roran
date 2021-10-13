@@ -1,0 +1,38 @@
+.services {
+  padding: 90px 0;
+}
+
+.services__title {
+  font-size: 27px;
+  font-weight: bold;
+  color: $main-color;
+  text-align: center;
+}
+.services__subtitle {
+  font-size: 21px;
+  color: $grey;
+  text-align: center;
+}
+
+.services__items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 50px;
+  margin-top: 50px;
+}
+.services__item {
+  display: flex;
+  width: 300px;
+  align-items: flex-start;
+  column-gap: 15px;
+  .divider {
+    margin: 0;
+  }
+}
+.services__item-title {
+  font-size: 18px;
+  span {
+    color: $maingreen;
+  }
+}

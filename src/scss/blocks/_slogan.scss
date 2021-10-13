@@ -1,0 +1,22 @@
+.slogan {
+  background-color: $maingreen;
+  color: $white;
+}
+.slogan__text {
+  font-size: 21px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 87px;
+}
+.slogan__autor {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 29px;
+  padding-bottom: 65px;
+}
+.slogan__divider {
+  background-color: $white;
+  width: 109px;
+  height: 1px;
+  margin: 0 auto;
+}

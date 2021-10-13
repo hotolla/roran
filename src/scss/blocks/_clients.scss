@@ -1,0 +1,23 @@
+.clients {
+  background-color: $maingreen;
+  padding: 90px 0;
+}
+.clients__title {
+  color: $white;
+  font-size: 27px;
+  font-weight: 800; //extrabold
+  text-align: center;
+}
+.clients__subtitle {
+  color: $white;
+  font-size: 23px; //regular
+  text-align: center;
+}
+
+.clients__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  margin-top: 55px;
+}
