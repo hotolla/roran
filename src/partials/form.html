@@ -1,0 +1,78 @@
+<section class="form">
+  <div class="container">
+    <div class="form__wrapper">
+      <form class="form__content" action="" method="post">
+        <label for="name"
+          >Your name:<span class="required">required</span></label
+        >
+        <input
+          type="text"
+          name="user_name"
+          class="form__name"
+          required
+          pattern="\w+"
+        />
+
+        <label for="mail"
+          >Your email:<span class="required">required</span></label
+        >
+        <input
+          type="email"
+          name="user_mail"
+          class="form__email"
+          required
+          pattern=".+@.+\..+"
+        />
+
+        <label for="subject">Subject:</label>
+        <input id="subject" name="user_subject" class="form__subject" />
+
+        <label for="msg">Message:<span class="required">required</span></label>
+        <textarea name="user_message" class="form__message" required></textarea>
+
+        <button type="submit" class="form__button">Send</button>
+      </form>
+      <div class="form__contactinfo">
+        <div class="form__contactinfo-title">Contactinfo</div>
+        <div class="form__contactinfo-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intege
+        </div>
+        <div class="form__contactinfo-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intege
+        </div>
+        <div class="form__contactinfo-items">
+          <div class="form__contactinfo-item">
+            <img
+              class="form__contactinfo-item-img"
+              src="../img/form/contact1.png"
+              alt=""
+            />
+            <p class="form__contactinfo-item-title">
+              Rue de Halle 245 1000 Brussels
+            </p>
+          </div>
+          <div class="form__contactinfo-item">
+            <img
+              class="form__contactinfo-item-img"
+              src="../img/form/contact2.png"
+              alt=""
+            />
+            <p class="form__contactinfo-item-title">
+              03 123 45 67 0412 345 678
+            </p>
+          </div>
+          <div class="form__contactinfo-item">
+            <img
+              class="form__contactinfo-item-img"
+              src="../img/form/contact3.png"
+              alt=""
+            />
+            <p class="form__contactinfo-item-title">
+              info@roran.com question@roran.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -5,19 +5,20 @@
 .clients__title {
   color: $white;
   font-size: 27px;
-  font-weight: 800; //extrabold
+  font-weight: 800;
   text-align: center;
 }
 .clients__subtitle {
   color: $white;
-  font-size: 23px; //regular
+  font-size: 23px;
   text-align: center;
 }
 
 .clients__items {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  column-gap: 60px;
+  justify-content: center;
+  gap: 40px;
   margin-top: 55px;
 }

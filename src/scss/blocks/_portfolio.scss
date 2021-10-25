@@ -1,3 +1,10 @@
+.portfolio {
+  .container {
+    max-width: max-content;
+    padding: 0;
+  }
+}
+
 .portfolio__title {
   margin-top: 90px;
   color: $main-color;
@@ -44,14 +51,13 @@
   display: flex;
   justify-content: center;
   img {
-    width: 300px;
-    height: 260px;
+    width: 25%;
   }
 }
 .tab-pane {
   display: none;
-  padding: 30px;
 }
 .tab-pane.active {
   display: flex;
+  flex-wrap: wrap;
 }

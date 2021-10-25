@@ -27,12 +27,16 @@ input {
   height: 52px;
 }
 .form__message {
-  width: 503px;
-  height: 200px;
+  max-width: 503px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
 }
 .form__button {
-  width: 90px;
-  height: 45px;
+  max-width: 90px;
+  width: 100%;
+  max-height: 45px;
+  height: 100%;
   margin-top: 30px;
   color: $white;
   background-color: $maingreen;

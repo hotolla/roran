@@ -6,6 +6,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const imagemin = require("gulp-imagemin");
 const htmlmin = require("gulp-htmlmin");
+const fileInclude = require("gulp-file-include");
 
 // Static server
 gulp.task("server", function () {
@@ -41,6 +42,7 @@ gulp.task("styles", function () {
 gulp.task("html", function () {
   return gulp
     .src("src/*.html")
+    .pipe(fileInclude())
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("dist/"));
 });

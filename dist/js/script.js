@@ -1,13 +1,24 @@
 const teamSlider = new Swiper(".team__slider", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
-  navigation: {
-    prevEl: ".swiper-button-prev",
-    nextEl: ".swiper-button-next",
-  },
   pagination: {
     el: ".swiper-pagination",
     type: "bullets",
+  },
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+    800: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 3,
+      navigation: {
+        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+      },
+    },
   },
 });
 
@@ -36,3 +47,23 @@ function tabs() {
 }
 
 tabs();
+
+function burger() {
+  const burger = document.querySelector(".burger");
+  const menu = document.querySelector(".info__mobile");
+  const menuItem = document.querySelectorAll(".menu__item");
+
+  burger.addEventListener("click", function () {
+    menu.classList.toggle("active");
+    burger.classList.toggle("active");
+  });
+
+  menuItem.forEach(function (item) {
+    item.addEventListener("click", function () {
+      menu.classList.remove("active");
+      burger.classList.remove("active");
+    });
+  });
+}
+
+burger();

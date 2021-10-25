@@ -18,13 +18,16 @@
 
 .about__items {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
   align-items: center;
   margin-top: 65px;
 }
 
 .about__item {
-  width: 215px;
+  max-width: 215px;
+  width: 100%;
 }
 
 .about__item-title {

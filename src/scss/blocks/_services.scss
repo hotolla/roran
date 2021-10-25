@@ -17,13 +17,15 @@
 .services__items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   column-gap: 20px;
   row-gap: 50px;
   margin-top: 50px;
 }
 .services__item {
   display: flex;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   align-items: flex-start;
   column-gap: 15px;
   .divider {
